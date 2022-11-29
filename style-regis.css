@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&family=Concert+One&family=Dosis:wght@500&family=DynaPuff&family=PT+Sans+Caption:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+#body1{
+   background-image: url(https://pbs.twimg.com/media/Fel3rQIVsAA-mxH?format=jpg&name=large);
+   background-size: 100%;
+   position: fixed;
+}
+.form-group{
+    margin-bottom: 10px;
+    background-color: #c5aabb;
+}
+#login-card {
+   width: 350px;
+   height: 350px;
+   border-radius: 25px;
+   margin: 150px auto;
+   margin-top: 220px;
+   margin-left: 510px;
+}
+
+#email {
+   border-radius: 10px;
+   background-color: #c5aabb;
+   border-color: grey;
+   color: white;
+}
+
+#button {
+   border-radius: 30px;
+}
+
+#btn {
+   position: absolute;
+   bottom: -45px;
+   padding: 5px;
+   margin: 0px 55px;
+   align-items: center;
+   border-radius: 5px;
+
+}
+
+#container {
+   margin-top: 25px;
+}
+.text-center{
+   font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn-circle.btn-sm {
+   width: 40px;
+   height: 40px;
+   padding: 2px 0px;
+   border-radius: 25px;
+   font-size: 14px;
+   text-align: center;
+
+   margin: 8px;
+}
+.avatar {
+  font-size: 30px ;
+  background: white;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  position: fixed;
+  left: 50%;
+  top: 195px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 50%;
+}
+
+
+/* .menu {
+  position: relative;
+  margin-left: 290px;
+  font-size: 80px;
+  color: white;
+} */
+
+.input{
+  align-content: center;
+  margin-left: 500px;
+  color :#c5aabb;
+  font-size: 12px ;
+  margin-bottom: 50px;
+}
+
+#form{
+  text-align: center;
+  align-content: center;
+  font-size: 14px;
+  color: #c5aabb;
+  margin-bottom: 50px;
+}
+
+.input{
+  position: relative;
+  max-width: 510px;
+  width: 100%;
+  background-color :#c5aabb;
+
+  padding: 25px 30px;
+  margin-top: 130px;
+  
+
+}
+#button2{
+cursor: pointer;
+border-radius: 2px;
+background-color: #ebe0cd;
+width: 100px;
+height: 30px;
+margin-bottom: 620px;
+font-size: 10px;
+
+}
+.submitt{
+   font-size: 25px;
+   color: #c5aabb;
+}
+
+
+
+

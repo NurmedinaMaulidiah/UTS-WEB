@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&family=Concert+One&family=Dosis:wght@500&family=DynaPuff&family=PT+Sans+Caption:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* font-family: 'Poppins'; */
+}
+body{
+    /* font-family: 'Poppins'; */
+    background: #ebe0cd;
+    font-family: 'Dosis', sans-serif;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #c5aabb;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    /* font-family: 'Dosis', sans-serif; */
+}
+
+
+a{
+    position: relative;
+    /* color: rgb(85, 83, 83); */
+    color: #cba884;
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+a:hover{
+    background-color: #eee;
+}
+
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+
+nav ul ul {
+    position: static;
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li {
+    line-height: 42px;
+    border-bottom: none;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul li a {
+    font-size: 12px;
+    color: #e2be99;
+    padding-left: 80px;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+
+/* LIHAT */
+.bigboxbos {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.bigbox {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7%;
+}
+
+table {
+     z-index: 2;
+     left: 0%;
+     top: 0px;
+     /* transform: translate(-50%,-50%); */
+     /* width: 60%;  */
+     border-collapse: collapse;
+     border-spacing: 0;
+     /* box-shadow: 0 2px 15px rgba(64,64,64,.7); */
+     /* border-radius: 12px 12px 0 0; */
+     overflow: hidden;
+     width: 100%;
+    }
+    
+td , th{
+    padding: 15px 20px;
+    text-align: center;        
+}
+       
+th{
+    background-color:#c5aabb;
+    color: #ebe0cd;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;   
+}
+       
+tr{
+    width: 100%;
+    background-color: #fafafa;
+    font-family: 'Dosis', sans-serif;
+    color: #cba884;
+}
+       
+tr:nth-child(even){
+    background-color: #eeeeee;
+}
+    
+.order {
+    position: relative;
+    font-family: 'Dosis', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    top: 80px;
+    left: 300px;
+}
+    
+
+
+.head {
+    font-size: 130%;
+    text-align: center;
+}
+
+.tabel2, .tabel3 {
+    padding-top: 30px;
+}
+
+#keyword {
+    width: 230px;
+}
+
+#cari {
+    position: relative;
+    left: -27px;
+    float: left;
+    margin-right: 850px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    background: #cba884;
+}
+.table0 td {
+    background: #cba884;
+}
