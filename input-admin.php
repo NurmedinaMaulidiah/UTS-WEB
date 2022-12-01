@@ -88,7 +88,7 @@
         
         if(move_uploaded_file($tmp, "img/".$gambar_baru)){
             $query = "INSERT INTO menu
-            VALUES ('', '$nama', '$harga', '$tglinput', '$gambar_baru')";
+            VALUES (NULL, '$nama', '$harga', '$tglinput', '$gambar_baru')";
 
             $result = $db->query($query);
 
